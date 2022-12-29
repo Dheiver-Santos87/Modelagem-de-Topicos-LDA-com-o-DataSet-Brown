@@ -1,4 +1,4 @@
-# Modelagem de Tópicos LDA com o Data Set Brown
+# Modelagem de Tópicos LDA com o DataSet Brown
 
 O modelo de tópicos LDA (Latent Dirichlet Allocation) é um algoritmo de aprendizado de máquina não supervisionado que é amplamente utilizado para agrupar documentos em tópicos coerentes. O LDA assume que cada documento é composto por uma mistura de tópicos e que cada palavra no documento é gerada a partir de um tópico específico. O LDA tenta encontrar os tópicos latentes que melhor explicam a distribuição de palavras nos documentos e atribui cada documento a um ou mais tópicos com base nesse modelo.
 
