@@ -6,19 +6,19 @@ O data set Brown é um conjunto de dados de texto pré-processado fornecido pelo
 
 Para modelar tópicos LDA com o data set Brown, você pode seguir os seguintes passos:
 
-Instale as bibliotecas necessárias: nltk, gensim, pyLDAvis, matplotlib e sklearn.
-Importe as bibliotecas necessárias.
-Faça o download do data set Brown usando o comando nltk.download('brown').
-Pré-process o data set Brown para remover stopwords e realizar outras etapas de pré-processamento, como tokenização.
-Divida o data set em conjuntde treinamento e teste usando a função train_test_split do pacote sklearn.
-Crie dicionários de palavras para os conjuntos de treinamento e de teste usando a classe Dictionary do pacote gensim.
-Crie os corpora em formato bag-of-words para os conjuntos de treinamento e de teste usando os dicionários criados no passo anterior.
-Converta os corpora em formato bag-of-words para matrizes esparsas usando a função csr_matrix do pacote scipy.
-Treine o modelo LDA usando o conjunto de treinamento e o dicionário de treinamento.
-Use o modelo treinado para fazer previsões para os documentos no conjunto de teste.
-Defina uma função para avaliar o desempenho do modelo usando métricas de erro, como precisão, recall e F1-score.
-Extraia os tópicos reais e previstos para cada documento no conjunto de teste.
-Aplique a função de avaliação criada no passo anterior para avaliar o desempenho do modelo.
-Visualize os tópicos gerados pelo modelo usando a biblioteca pyLDAvis.
+1. Instale as bibliotecas necessárias: nltk, gensim, pyLDAvis, matplotlib e sklearn.
+2. Importe as bibliotecas necessárias.
+3. Faça o download do data set Brown usando o comando nltk.download('brown').
+4. Pré-process o data set Brown para remover stopwords e realizar outras etapas de pré-processamento, como tokenização.
+5. Divida o data set em conjuntde treinamento e teste usando a função train_test_split do pacote sklearn.
+6. Crie dicionários de palavras para os conjuntos de treinamento e de teste usando a classe Dictionary do pacote gensim.
+7. Crie os corpora em formato bag-of-words para os conjuntos de treinamento e de teste usando os dicionários criados no passo anterior.
+8. Converta os corpora em formato bag-of-words para matrizes esparsas usando a função csr_matrix do pacote scipy.
+9. Treine o modelo LDA usando o conjunto de treinamento e o dicionário de treinamento.
+10. Use o modelo treinado para fazer previsões para os documentos no conjunto de teste.
+11. Defina uma função para avaliar o desempenho do modelo usando métricas de erro, como precisão, recall e F1-score.
+12. Extraia os tópicos reais e previstos para cada documento no conjunto de teste.
+13. Aplique a função de avaliação criada no passo anterior para avaliar o desempenho do modelo.
+14. Visualize os tópicos gerados pelo modelo usando a biblioteca pyLDAvis.
 
 Esses são os passos gerais para modelar tópicos LDA com o data set Brown em Python. No entanto, é importante observar que esses passos podem variar de acordo com as suas necessidades específicas e que pode ser necessário ajustar o código para atender às suas necessidades. Além disso, é importante lembrar de avaliar o desempenho do modelo para garantir que ele esteja gerando resultados precisos e coerentes.
