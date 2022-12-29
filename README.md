@@ -22,3 +22,6 @@ Para modelar tópicos LDA com o data set Brown, você pode seguir os seguintes p
 14. Visualize os tópicos gerados pelo modelo usando a biblioteca pyLDAvis.
 
 Esses são os passos gerais para modelar tópicos LDA com o data set Brown em Python. No entanto, é importante observar que esses passos podem variar de acordo com as suas necessidades específicas e que pode ser necessário ajustar o código para atender às suas necessidades. Além disso, é importante lembrar de avaliar o desempenho do modelo para garantir que ele esteja gerando resultados precisos e coerentes.
+
+Conjunto de documentos que servem de base para a descrição ou o estudo de um fenómeno . Plural: corpora. Plural: corpora.
+
